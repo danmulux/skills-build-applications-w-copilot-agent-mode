@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { apiClient } from '../api';
+// API Endpoint: -8000.app.github.dev/api/activities
 
 export default function Activities() {
   const [activities, setActivities] = useState([]);
